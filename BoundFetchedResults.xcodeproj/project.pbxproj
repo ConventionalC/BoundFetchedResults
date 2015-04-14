@@ -10,10 +10,8 @@
 		D0AB2CEF1ADD82D70071A314 /* BoundFetchedResults.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AB2CEE1ADD82D70071A314 /* BoundFetchedResults.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0AB2CF51ADD82D80071A314 /* BoundFetchedResults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AB2CE91ADD82D70071A314 /* BoundFetchedResults.framework */; };
 		D0AB2CFC1ADD82D80071A314 /* BoundFetchedResultsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AB2CFB1ADD82D80071A314 /* BoundFetchedResultsTests.m */; };
-		D0AB2D091ADD8A9C0071A314 /* BFRForwardingUITableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AB2D051ADD8A9C0071A314 /* BFRForwardingUITableViewDataSource.h */; };
-		D0AB2D0A1ADD8A9C0071A314 /* BFRForwardingUITableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AB2D061ADD8A9C0071A314 /* BFRForwardingUITableViewDataSource.m */; };
-		D0AB2D0B1ADD8A9C0071A314 /* BFRForwardingUITableViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AB2D071ADD8A9C0071A314 /* BFRForwardingUITableViewDelegate.h */; };
-		D0AB2D0C1ADD8A9C0071A314 /* BFRForwardingUITableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AB2D081ADD8A9C0071A314 /* BFRForwardingUITableViewDelegate.m */; };
+		D0AB2D0F1ADD8C670071A314 /* BoundFetchedResultsDataSourceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AB2D0D1ADD8C670071A314 /* BoundFetchedResultsDataSourceDelegate.h */; };
+		D0AB2D101ADD8C670071A314 /* BoundFetchedResultsDataSourceDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AB2D0E1ADD8C670071A314 /* BoundFetchedResultsDataSourceDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +31,8 @@
 		D0AB2CF41ADD82D80071A314 /* BoundFetchedResultsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoundFetchedResultsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0AB2CFA1ADD82D80071A314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0AB2CFB1ADD82D80071A314 /* BoundFetchedResultsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoundFetchedResultsTests.m; sourceTree = "<group>"; };
-		D0AB2D051ADD8A9C0071A314 /* BFRForwardingUITableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFRForwardingUITableViewDataSource.h; sourceTree = "<group>"; };
-		D0AB2D061ADD8A9C0071A314 /* BFRForwardingUITableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFRForwardingUITableViewDataSource.m; sourceTree = "<group>"; };
-		D0AB2D071ADD8A9C0071A314 /* BFRForwardingUITableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFRForwardingUITableViewDelegate.h; sourceTree = "<group>"; };
-		D0AB2D081ADD8A9C0071A314 /* BFRForwardingUITableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFRForwardingUITableViewDelegate.m; sourceTree = "<group>"; };
+		D0AB2D0D1ADD8C670071A314 /* BoundFetchedResultsDataSourceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoundFetchedResultsDataSourceDelegate.h; sourceTree = "<group>"; };
+		D0AB2D0E1ADD8C670071A314 /* BoundFetchedResultsDataSourceDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoundFetchedResultsDataSourceDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				D0AB2CEE1ADD82D70071A314 /* BoundFetchedResults.h */,
-				D0AB2D051ADD8A9C0071A314 /* BFRForwardingUITableViewDataSource.h */,
-				D0AB2D061ADD8A9C0071A314 /* BFRForwardingUITableViewDataSource.m */,
-				D0AB2D071ADD8A9C0071A314 /* BFRForwardingUITableViewDelegate.h */,
-				D0AB2D081ADD8A9C0071A314 /* BFRForwardingUITableViewDelegate.m */,
+				D0AB2D0D1ADD8C670071A314 /* BoundFetchedResultsDataSourceDelegate.h */,
+				D0AB2D0E1ADD8C670071A314 /* BoundFetchedResultsDataSourceDelegate.m */,
 				D0AB2CEC1ADD82D70071A314 /* Supporting Files */,
 			);
 			path = BoundFetchedResults;
@@ -121,9 +115,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0AB2D091ADD8A9C0071A314 /* BFRForwardingUITableViewDataSource.h in Headers */,
 				D0AB2CEF1ADD82D70071A314 /* BoundFetchedResults.h in Headers */,
-				D0AB2D0B1ADD8A9C0071A314 /* BFRForwardingUITableViewDelegate.h in Headers */,
+				D0AB2D0F1ADD8C670071A314 /* BoundFetchedResultsDataSourceDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,8 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0AB2D0A1ADD8A9C0071A314 /* BFRForwardingUITableViewDataSource.m in Sources */,
-				D0AB2D0C1ADD8A9C0071A314 /* BFRForwardingUITableViewDelegate.m in Sources */,
+				D0AB2D101ADD8C670071A314 /* BoundFetchedResultsDataSourceDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
