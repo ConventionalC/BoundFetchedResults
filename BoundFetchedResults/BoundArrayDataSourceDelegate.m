@@ -1,5 +1,4 @@
 #import "BoundArrayDataSourceDelegate.h"
-#import "ESUICategories.h"
 
 @interface BoundArrayDataSourceDelegate()
     @property(strong) NSMutableArray* sectionTitles;
@@ -119,7 +118,7 @@
     _tableView = tableView;
     UITableViewCell* c;
     if(self.textKey)
-        c = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass(self.class)] ?: [UITableViewCell cellWithStyle:cellStyle reuseIdentifier:NSStringFromClass(self.class)];
+        c = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass(self.class)] ?: [[UITableViewCell alloc] initWithStyle:cellStyle reuseIdentifier:NSStringFromClass(self.class)];
     else
         c = [_tableView dequeueReusableCellWithIdentifier:NSStringFromClass(self.class) forIndexPath:ip];
     [self configureCell:c withData:[self dataAtIndexPath:ip]];
