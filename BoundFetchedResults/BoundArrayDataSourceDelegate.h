@@ -6,6 +6,7 @@
 @property(strong) NSString*            textKey;
 @property(strong) NSString*            detailKey;
 @property(assign) UITableViewCellStyle cellStyle;
+@property(strong) NSMutableArray*      sectionData;
 
 @property(readonly) BOOL usesSections;
 
