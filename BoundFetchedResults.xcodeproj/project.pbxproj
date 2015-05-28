@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D07388A81B16A92000267C1D /* BoundFetchedResults.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BoundFetchedResults.podspec; sourceTree = "<group>"; };
 		D0AB2CE91ADD82D70071A314 /* BoundFetchedResults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoundFetchedResults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0AB2CED1ADD82D70071A314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0AB2CEE1ADD82D70071A314 /* BoundFetchedResults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoundFetchedResults.h; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 				D0AB2CEB1ADD82D70071A314 /* BoundFetchedResults */,
 				D0AB2CF81ADD82D80071A314 /* BoundFetchedResultsTests */,
 				D0AB2CEA1ADD82D70071A314 /* Products */,
+				D07388A81B16A92000267C1D /* BoundFetchedResults.podspec */,
 			);
 			sourceTree = "<group>";
 		};

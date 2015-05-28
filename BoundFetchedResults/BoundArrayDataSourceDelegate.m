@@ -2,7 +2,6 @@
 
 @interface BoundArrayDataSourceDelegate()
     @property(strong) NSMutableArray* sectionTitles;
-    @property(strong) NSMutableArray* sectionData;
     @property(strong) NSArray* originalCellData;
 @end
 
